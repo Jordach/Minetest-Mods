@@ -15,6 +15,7 @@ minetest.register_node("tv:screen_2", {
 	is_ground_content = true,
 	groups = {snappy=1,bendy=2,cracky=1,melty=2,level=2},
 	drop = 'tv:screen_1',
+	light_source = 8,
 })
 
 minetest.register_node("tv:screen_3", {
